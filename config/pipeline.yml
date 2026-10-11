@@ -1,0 +1,52 @@
+# Pipeline configuration. Scope changes (countries, indicators, years) are made here only;
+# no pipeline code needs to change. See docs/specs/data-model-and-decisions.md §10.
+
+scope:
+  countries:          # ISO 3166-1 alpha-3
+    - BRA
+    - CAN
+    - DEU
+    - GBR
+    - IND
+    - JPN
+    - MEX
+    - USA
+    - ZAF
+
+  indicators:
+    - code: SP.POP.TOTL
+      name: Population, total
+      unit: persons
+    - code: NY.GDP.MKTP.CD
+      name: GDP, current US dollars
+      unit: current USD
+    - code: NY.GDP.PCAP.CD
+      name: GDP per capita, current US dollars
+      unit: current USD
+    - code: SP.DYN.LE00.IN
+      name: Life expectancy at birth, total
+      unit: years
+
+  years:
+    start: 2018
+    end: 2024           # inclusive
+
+api:
+  base_url: https://api.worldbank.org/v2
+  source_id: 2          # World Development Indicators
+  per_page: 1000
+  timeout_seconds: 30
+  retry:
+    max_attempts: 5
+    backoff_base_seconds: 1.0
+    backoff_max_seconds: 30.0
+
+storage:
+  duckdb_path: data/warehouse.duckdb
+  output_dir: output
+
+quality:
+  # Max relative difference between NY.GDP.PCAP.CD and NY.GDP.MKTP.CD / SP.POP.TOTL.
+  # Severity: warn. To be calibrated against recorded data.
+  gdp_per_capita_tolerance: 0.01
+  life_expectancy_range: [20, 100]
