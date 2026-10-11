@@ -1,0 +1,66 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": "50",
+    "total": 2
+  },
+  [
+    {
+      "id": "BRA",
+      "iso2Code": "BR",
+      "name": "Brazil",
+      "region": {
+        "id": "LCN",
+        "iso2code": "ZJ",
+        "value": "Latin America & Caribbean "
+      },
+      "adminregion": {
+        "id": "LAC",
+        "iso2code": "XJ",
+        "value": "Latin America & Caribbean (excluding high income)"
+      },
+      "incomeLevel": {
+        "id": "UMC",
+        "iso2code": "XT",
+        "value": "Upper middle income"
+      },
+      "lendingType": {
+        "id": "IBD",
+        "iso2code": "XF",
+        "value": "IBRD"
+      },
+      "capitalCity": "Brasilia",
+      "longitude": "-47.9292",
+      "latitude": "-15.7801"
+    },
+    {
+      "id": "CAN",
+      "iso2Code": "CA",
+      "name": "Canada",
+      "region": {
+        "id": "NAC",
+        "iso2code": "XU",
+        "value": "North America"
+      },
+      "adminregion": {
+        "id": "",
+        "iso2code": "",
+        "value": ""
+      },
+      "incomeLevel": {
+        "id": "HIC",
+        "iso2code": "XD",
+        "value": "High income"
+      },
+      "lendingType": {
+        "id": "LNX",
+        "iso2code": "XX",
+        "value": "Not classified"
+      },
+      "capitalCity": "Ottawa",
+      "longitude": "-75.6919",
+      "latitude": "45.4215"
+    }
+  ]
+]

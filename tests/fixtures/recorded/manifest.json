@@ -1,0 +1,37 @@
+[
+  {
+    "file": "country_p1.json",
+    "url": "https://api.worldbank.org/v2/country/BRA;CAN;DEU;GBR;IND;JPN;MEX;USA;ZAF?format=json&per_page=1000&page=1",
+    "page": 1,
+    "fetched_at": "2026-10-11T21:59:09+00:00",
+    "sha256": "6fc0e4e25180d5e612195a3197496520a106e26d15967ca1effc34bd8b4973bb"
+  },
+  {
+    "file": "indicator_SP.POP.TOTL_p1.json",
+    "url": "https://api.worldbank.org/v2/country/BRA;CAN;DEU;GBR;IND;JPN;MEX;USA;ZAF/indicator/SP.POP.TOTL?format=json&per_page=1000&date=2018%3A2024&source=2&page=1",
+    "page": 1,
+    "fetched_at": "2026-10-11T21:59:17+00:00",
+    "sha256": "b877d7b67ae0500dc45bf3e2e10943508faea8a991f200e447e421318bd0fc3c"
+  },
+  {
+    "file": "indicator_NY.GDP.MKTP.CD_p1.json",
+    "url": "https://api.worldbank.org/v2/country/BRA;CAN;DEU;GBR;IND;JPN;MEX;USA;ZAF/indicator/NY.GDP.MKTP.CD?format=json&per_page=1000&date=2018%3A2024&source=2&page=1",
+    "page": 1,
+    "fetched_at": "2026-10-11T21:59:18+00:00",
+    "sha256": "cf16402825cfdd6aee6c40b757227e70da29831575a1e6d0bbd37cf4c3bccd4c"
+  },
+  {
+    "file": "indicator_NY.GDP.PCAP.CD_p1.json",
+    "url": "https://api.worldbank.org/v2/country/BRA;CAN;DEU;GBR;IND;JPN;MEX;USA;ZAF/indicator/NY.GDP.PCAP.CD?format=json&per_page=1000&date=2018%3A2024&source=2&page=1",
+    "page": 1,
+    "fetched_at": "2026-10-11T21:59:25+00:00",
+    "sha256": "8f1005119846d9132140678110135f4ebba38decbce153c8932b4fd3718c0def"
+  },
+  {
+    "file": "indicator_SP.DYN.LE00.IN_p1.json",
+    "url": "https://api.worldbank.org/v2/country/BRA;CAN;DEU;GBR;IND;JPN;MEX;USA;ZAF/indicator/SP.DYN.LE00.IN?format=json&per_page=1000&date=2018%3A2024&source=2&page=1",
+    "page": 1,
+    "fetched_at": "2026-10-11T21:59:29+00:00",
+    "sha256": "6ccf9e027e9e6b76e249583d0ad4769ab30816e84cf81fc72689e26f051af9a5"
+  }
+]
